@@ -1,0 +1,27 @@
+# 사용자 이름
+username: USER_ID
+
+# 컨테이너 이름 (APP 값 사용)
+containerName: APP
+
+image:
+  repository: doro0704/APP
+  pullPolicy: IfNotPresent
+  tag: VERSION
+
+service:
+  type: LoadBalancer
+  port: 80
+
+# DB 설정
+db:
+  enabled: true
+  image: mysql:5.7
+  containerName: db
+  service:
+    type: ClusterIP
+    port: 3306
+
+resources:
+  cpu: CPU
+  ram: RAMMi

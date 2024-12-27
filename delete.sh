@@ -8,7 +8,7 @@ if [[ "$confirm" != "y" && "$confirm" != "Y" ]]; then
 fi
 
 # 🔍 MySQL에서 user_id 목록 가져오기
-user_ids=$(mysql -u root -h 10.10.100.231 -B -P 3306 -e 'USE webapp_db; SELECT user_id FROM users;' | tail -n +2)
+user_ids=$(mysql -B -e 'USE webapp_db; SELECT user_id FROM users;' | tail -n +2)
 
 # 디버깅용
 echo "🔍 가져온 사용자 목록:"
@@ -56,7 +56,7 @@ read -p "⚠️ 정말로 데이터베이스 users 테이블의 모든 데이터
 if [[ "$confirm_db" != "y" && "$confirm_db" != "Y" ]]; then
   echo "❌ users 테이블 데이터 삭제가 취소되었습니다."
 else
-  mysql -u root -h 10.10.100.231 -B -P 3306 -e "USE webapp_db; DELETE FROM users;"
+  mysql -B -e "USE webapp_db; DELETE FROM users;"
   if [[ $? -eq 0 ]]; then
     echo "✅ users 테이블의 모든 데이터가 성공적으로 삭제되었습니다."
   else

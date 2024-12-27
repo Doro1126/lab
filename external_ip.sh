@@ -15,7 +15,7 @@ else
   echo "$(date): 🟢 [$user_id]의 접속 주소: http://$external_ip" >> deployment.log
 
   echo "📡 [$user_id]의 External IP를 데이터베이스에 저장합니다..."
-  mysql -u root -B -P 3306 -e "USE webapp_db; UPDATE users SET pub_ip='$external_ip' WHERE user_id='$user_id';"
+  mysql -B -e "USE webapp_db; UPDATE users SET pub_ip='$external_ip' WHERE user_id='$user_id';"
   if [[ $? -eq 0 ]]; then
     echo "✅ [$user_id]의 External IP가 데이터베이스에 성공적으로 저장되었습니다."
   else
@@ -26,7 +26,7 @@ fi
 # DB 도메인 저장
 if [[ -n "$db_dns" ]]; then
   echo "📡 [$user_id]의 DB 도메인 주소를 데이터베이스에 저장합니다..."
-  mysql -u root -B -P 3306 -e "USE webapp_db; UPDATE users SET db_dns='$db_dns' WHERE user_id='$user_id';"
+  mysql -B -e "USE webapp_db; UPDATE users SET db_dns='$db_dns' WHERE user_id='$user_id';"
   if [[ $? -eq 0 ]]; then
     echo "✅ [$user_id]의 DB 도메인 주소가 데이터베이스에 성공적으로 저장되었습니다."
   else
