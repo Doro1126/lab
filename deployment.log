@@ -1,2 +1,25 @@
 Fri Dec 27 06:46:37 UTC 2024: 🟢 [testuser1] | 애플리케이션: [wp] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
 Fri Dec 27 06:46:38 UTC 2024: 🟢 [testuser1]의 접속 주소: http://10.10.100.120
+Thu Jan  2 00:28:14 UTC 2025: 🟢 [fuck] | 애플리케이션: [xe] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 00:29:00 UTC 2025: 🟢 [sibal] | 애플리케이션: [xe] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 00:29:12 UTC 2025: 🟢 [sibal]의 접속 주소: http://a7ba65dbdab6645cc9126ead97f757f6-c6268ac49cc5e286.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 00:34:01 UTC 2025: 🟢 [sibal] | 애플리케이션: [xe] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 00:34:02 UTC 2025: 🟢 [sibal]의 접속 주소: http://a7ba65dbdab6645cc9126ead97f757f6-c6268ac49cc5e286.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 00:34:52 UTC 2025: 🟢 [sibal]의 접속 주소: http://a7ba65dbdab6645cc9126ead97f757f6-c6268ac49cc5e286.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 00:39:22 UTC 2025: 🟢 [user1] | 애플리케이션: [xe] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 00:39:33 UTC 2025: 🟢 [user1]의 접속 주소: http://a13a6053079854df494fde611ba19abb-b7578ffe4de5aef8.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 00:40:21 UTC 2025: 🟢 [user2] | 애플리케이션: [wp] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 00:40:33 UTC 2025: 🟢 [user2]의 접속 주소: http://aeaf15897e83a4faba31cf5dc6b52156-e6d2d149dbfe853b.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 00:52:05 UTC 2025: 🟢 [user2]의 접속 주소: http://aeaf15897e83a4faba31cf5dc6b52156-e6d2d149dbfe853b.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 00:52:33 UTC 2025: 🟢 [user2] | 애플리케이션: [wp] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 00:52:34 UTC 2025: 🟢 [user2]의 접속 주소: http://aeaf15897e83a4faba31cf5dc6b52156-e6d2d149dbfe853b.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 00:54:14 UTC 2025: 🟢 [user3] | 애플리케이션: [wp] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 00:54:26 UTC 2025: 🟢 [user3]의 접속 주소: http://a4c08dcb26933409f9b595bb7bd98aeb-19ebf9737298d7eb.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 06:33:16 UTC 2025: 🟢 [user1] | 애플리케이션: [xe] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 06:33:27 UTC 2025: 🟢 [user1]의 접속 주소: http://af3bcf45f0afe446da83dfbf8de082a7-254dc93cf2c0032b.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 06:43:49 UTC 2025: 🟢 [user2] | 애플리케이션: [wp] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 06:44:00 UTC 2025: 🟢 [user2]의 접속 주소: http://abf2338cdc76940c2bfbe3e2ab6f511a-eec9b3e3ddd90d6e.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 06:51:52 UTC 2025: 🟢 [user2]의 접속 주소: http://abf2338cdc76940c2bfbe3e2ab6f511a-eec9b3e3ddd90d6e.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 06:52:20 UTC 2025: 🟢 [user2]의 접속 주소: http://abf2338cdc76940c2bfbe3e2ab6f511a-eec9b3e3ddd90d6e.elb.ap-northeast-1.amazonaws.com
+Thu Jan  2 06:53:21 UTC 2025: 🟢 [user2] | 애플리케이션: [xe] | 버전: [v1] 배포가 성공적으로 완료되었습니다.
+Thu Jan  2 06:53:22 UTC 2025: 🟢 [user2]의 접속 주소: http://abf2338cdc76940c2bfbe3e2ab6f511a-eec9b3e3ddd90d6e.elb.ap-northeast-1.amazonaws.com

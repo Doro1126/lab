@@ -3,7 +3,11 @@ kind: Service
 metadata:
   name: {{ .Values.username }}-svc
   annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: "nlb" # NLB (Network Load Balancer) 사용
+    service.beta.kubernetes.io/aws-load-balancer-type: "nlb"
+    service.beta.kubernetes.io/aws-load-balancer-scheme: "internet-facing"
+    service.beta.kubernetes.io/aws-load-balancer-healthcheck-protocol: "HTTP"
+    service.beta.kubernetes.io/aws-load-balancer-healthcheck-port: "80"
+    service.beta.kubernetes.io/aws-load-balancer-healthcheck-path: "/"
   labels:
     app: {{ .Chart.Name }}
 spec:
